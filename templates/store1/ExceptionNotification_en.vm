@@ -1,0 +1,18 @@
+Exception Notification
+<html>
+	<head>
+		<title>Exception Notification</title>
+#include("${templateBase}/style.vm")
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<table border="0" width="100%">
+			<tr>
+				<td width="100%">
+					<pre><code>$message</code></pre>
+				</td>
+			</tr>
+		</table>
+	</body> 
+</html> 
+
