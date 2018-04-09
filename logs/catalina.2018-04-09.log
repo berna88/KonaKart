@@ -1,0 +1,55 @@
+09-Apr-2018 13:31:53.306 WARNING [main] org.apache.tomcat.util.net.SSLHostConfig.setProtocols The protocol [TLSv1.1] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+09-Apr-2018 13:31:53.313 WARNING [main] org.apache.tomcat.util.net.SSLHostConfig.setProtocols The protocol [TLSv1.2] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+09-Apr-2018 13:31:53.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+09-Apr-2018 13:31:53.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+09-Apr-2018 13:31:53.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+09-Apr-2018 13:31:53.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+09-Apr-2018 13:31:53.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+09-Apr-2018 13:31:53.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2018 13:31:53.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+09-Apr-2018 13:31:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+09-Apr-2018 13:31:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Apr-2018 13:31:53.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\KonaKart
+09-Apr-2018 13:31:53.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\KonaKart
+09-Apr-2018 13:31:53.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\KonaKart\bin\/..\conf\logging.properties
+09-Apr-2018 13:31:53.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2018 13:31:53.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2018 13:31:53.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2018 13:31:53.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256m
+09-Apr-2018 13:31:53.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+09-Apr-2018 13:31:53.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1400m
+09-Apr-2018 13:31:53.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.solr.home=C:\KonaKart\bin\/../solr
+09-Apr-2018 13:31:53.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+09-Apr-2018 13:31:53.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dactivemq.store.dir=C:\KonaKart\bin\/../mq
+09-Apr-2018 13:31:53.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j.debug=true
+09-Apr-2018 13:31:53.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkk.log4j.debug=true
+09-Apr-2018 13:31:53.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\KonaKart\bin\/..
+09-Apr-2018 13:31:53.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\KonaKart\bin\/..
+09-Apr-2018 13:31:53.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\KonaKart\bin\/..\temp
+09-Apr-2018 13:31:53.401 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;.]
+09-Apr-2018 13:31:53.593 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8780"]
+09-Apr-2018 13:31:53.765 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 13:31:53.771 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8783"]
+09-Apr-2018 13:31:54.100 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 13:31:54.102 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8788"]
+09-Apr-2018 13:31:54.107 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2018 13:31:54.109 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1482 ms
+09-Apr-2018 13:31:54.145 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2018 13:31:54.148 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+09-Apr-2018 13:31:54.159 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\KonaKart\webapps\birtviewer]
+09-Apr-2018 13:31:55.238 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 13:31:57.890 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\KonaKart\webapps\birtviewer] has finished in [3,730] ms
+09-Apr-2018 13:31:57.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\KonaKart\webapps\javadoc]
+09-Apr-2018 13:31:57.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\KonaKart\webapps\javadoc] has finished in [23] ms
+09-Apr-2018 13:31:57.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\KonaKart\webapps\konakart]
+09-Apr-2018 13:31:58.573 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 13:32:03.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\KonaKart\webapps\konakart] has finished in [5,259] ms
+09-Apr-2018 13:32:03.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\KonaKart\webapps\konakartadmin]
+09-Apr-2018 13:32:04.753 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Apr-2018 13:32:10.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\KonaKart\webapps\konakartadmin] has finished in [7,153] ms
+09-Apr-2018 13:32:10.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\KonaKart\webapps\ROOT]
+09-Apr-2018 13:32:10.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\KonaKart\webapps\ROOT] has finished in [36] ms
+09-Apr-2018 13:32:10.376 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8780"]
+09-Apr-2018 13:32:10.407 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8783"]
+09-Apr-2018 13:32:10.413 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8788"]
+09-Apr-2018 13:32:10.417 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16324 ms
